@@ -1,4 +1,4 @@
-A Wordle webapp utilizing Wt framework
+A Wordle web app utilizing Wt framework, written in C++
 
-The Makefile is modified by removing boosted linkers. If linker error is occured, try change the line 8 of Makefile back, as follows:
+If linker error is occured, try changing line 8 of Makefile as follows:
 LDFLAGS=-L$(WT_BASE)/lib -Wl,-rpath,$(WT_BASE)/lib -lwthttp -lwt -lboost_thread -lboost_atomic -lboost_filesystem
